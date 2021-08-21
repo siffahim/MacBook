@@ -2,7 +2,7 @@
 let extraMemoryCharge = 0;
 let extraSsdCharge = 0;
 let diliverCharge = 0;
-let totalPrice = 1299 + extraMemoryCharge + extraSsdCharge + diliverCharge;
+totalPrice = 1299 + extraMemoryCharge + extraSsdCharge + diliverCharge;
 const discountPrice = document.getElementById('discount-price');
 
 function totalPriceAmount() {
